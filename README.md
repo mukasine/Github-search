@@ -5,7 +5,7 @@
 
 ## Description
 This is an app where a user can fill a form with a Github username and see names and descriptions of that person's public repositories.Also a person can look for repositories
-
+## Setup/Installation Requirements
 ## To access this webpage:
 * Connect to the internet
 * Open your browser
