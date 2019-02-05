@@ -1,4 +1,4 @@
-#Github-Search
+
 #### This is a website to explore github users and repositories ,Current version:4th february 2019
 
 #### By **MUKASINE Marie Claire**
@@ -26,7 +26,7 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 ## Build
 
-Run `ng build`  The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
 ## Running unit tests
 
