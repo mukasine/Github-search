@@ -13,18 +13,18 @@ export class UserRequestService {
     this.user=new User("","");
   }
 
-  quoteRequest(){
+  quoteRequest(user){
 
     interface ApiResponse{
-        user:string;
-        author:string
+        avatar_url:string;
+        name:string
 
     }
     let promise =new Promise((resolve,reject)=>{
-        this.http.get<ApiResponse>(environment.apiUrl).toPromise().then(response=>{
+        this.http.get<ApiResponse>("https://api.github.com/users/"+ user.name+"?access_token="+environment.api_key).toPromise().then(response=>{
             
-            this.user.user=response.user
-            this.user.author=response.author
+            this.user.user=response.avatar_url
+            this.user.author=response.name
 
             resolve()
         },

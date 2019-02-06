@@ -1,7 +1,10 @@
-<form>
+<form (ngSubmit)='check()'>
   <div class="form-group">
     <input type="text" class="form-control" placeholder="enter your github user name">
   </div>
   <button href class="btn btn-success" id="view" appStrikethrough>Search</button>
 </form>
 <p>{{olalala | uppercase}}</p>
+
+<p>Public repositories:{{repos.public_repos}}</p>
+
