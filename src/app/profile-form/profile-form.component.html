@@ -1,10 +1,14 @@
 <form (ngSubmit)='check()'>
   <div class="form-group">
-    <input type="text" class="form-control" placeholder="enter your github user name">
+    <input type="text" class="form-control" placeholder="enter your github user name" [(ngModel)]="name" name="name">
   </div>
-  <button href class="btn btn-success" id="view" appStrikethrough>Search</button>
+  <button type="submit" class="btn btn-success" id="view" appStrikethrough>Search</button>
 </form>
-<p>{{olalala | uppercase}}</p>
+<!-- <p>{{olalala | uppercase}}</p> -->
 
 <p>Public repositories:{{repos.public_repos}}</p>
-
+<p>followers:{{repos.followers}}</p>
+<p>following:{{repos.following}}</p>
+<p>created at{{repos.created_at}}</p>
+<a href="{{repos.html_url}}">View User</a>
+<!-- <p>html url{{repos.html_url}}</p> -->
