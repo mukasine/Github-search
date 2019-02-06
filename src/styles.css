@@ -1,10 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap/dist/css/bootstrap.css";
-body{
-    background-color: rgb(113, 180, 113);
-}
 
 
+form{
+    margin-left:750px;
+    margin-top:20px;
 }
 .paras{
     margin-left:750px;
