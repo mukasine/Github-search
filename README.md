@@ -12,9 +12,6 @@ This is an app where a user can fill a form with a Github username and see names
 * In your browser adress bar type the following
 * http://mukasine.github.io/Github-search
 * And there you have it
-
-
-
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
@@ -44,7 +41,7 @@ Having any issues?<br>
 Email:mclaremukasine@gmail.com<br>
 Slack:MUKASINE Marie Claire
 
-### 
+### License
 [MIT](https://choosealicense.com/licenses/mit/)<br>
 Copyright (c) 2019 **MUKASINE Marie Claire** <br>
 
